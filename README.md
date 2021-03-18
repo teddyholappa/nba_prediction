@@ -1,7 +1,7 @@
 # nba_prediction
 Predicting NBA game outcomes with basic data
 
-Just a fun project for data-wrangling practice and constructing a end-to-end NN.
+Just a fun project for data-wrangling practice and constructing an end-to-end mini-project.
 
 Todo:
 1) Remove linearly dependent elements
