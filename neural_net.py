@@ -56,7 +56,8 @@ class LogisticRegression(nn.Module):
 net = Net()
 #net = LogisticRegression()
 
-criterion = nn.MSELoss()
+#criterion = nn.MSELoss()
+criterion = nn.BCELoss()
 optimizer = optim.SGD(net.parameters(),lr=0.01,momentum=.9)
 for epoch in range(10):
 	running_loss = 0.0
